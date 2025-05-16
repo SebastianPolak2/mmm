@@ -68,7 +68,7 @@ int main()
 
      for (int i = 0; i < total; i++) {
         t = i * h * 1.0;
-        y_out[i] = y[0];  // zapisz wyjście
+        y_out[i] = y[0];  // zapisz wyjście!
 
         double k1[3], k2[3], k3[3], k4[3], y_temp[3];
 
