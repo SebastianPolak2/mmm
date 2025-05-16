@@ -72,7 +72,7 @@ int main()
 
         double k1[3], k2[3], k3[3], k4[3], y_temp[3];
 
-        compute_derivatives(y, k1, u[i], u1p[i]);
+        compute_derivatives(y, k1, u[i], u1p[i]); 
 
         for (int j = 0; j < 3; j++)
             y_temp[j] = y[j] + 0.5 * h * k1[j];
