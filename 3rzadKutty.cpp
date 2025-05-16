@@ -46,7 +46,7 @@ int main()
     cout << "\n k2 = "; cin >> k2;
     cout << "\n\n";
 
-    // obliczenie współczynników
+    // współczynniki układu ruwnania różniczkowego poczatkowego
     b1 = 1.0*T1*k1*k2;
     b0 = 1.0*k1*k2;
     a3 = 1.0*T1*T2;
